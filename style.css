@@ -1,0 +1,32 @@
+body{
+  background-color: #436acc;
+  font-family: Helventica, Arial, sans-serif;
+}
+
+#container{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%
+}
+#top{
+}
+
+#header{
+  background-color: #ff9900;
+  color: white;
+}
+
+#nav{
+  background-color: #666666;
+  color: blue;
+}
+
+#badge{
+
+}
+
+#pictures{
+  padding: 10%;
+}
