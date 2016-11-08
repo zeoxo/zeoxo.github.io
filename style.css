@@ -27,6 +27,7 @@ body{
 
 }
 
-#pictures{
-  padding: 10%;
+.screenshot{
+  width: 100%;
+  height: auto;
 }
