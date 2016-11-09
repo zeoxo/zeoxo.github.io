@@ -1,7 +1,10 @@
 body{
   background-color: #003366;
-  /*font-family: Helventica, Arial, sans-serif;*/
   font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: inherit;
 }
 
 #container{
@@ -17,6 +20,12 @@ body{
 }
 
 #header{
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#footer{
+  color: white;
 }
 
 
