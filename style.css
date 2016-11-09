@@ -1,9 +1,11 @@
 body{
-  background-color: #436acc;
-  font-family: Helventica, Arial, sans-serif;
+  background-color: #003366;
+  /*font-family: Helventica, Arial, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 #container{
+    background-color: #436acc;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -14,9 +16,7 @@ body{
   color: white;
 }
 
-#nav{
-  background-color: #666666;
-  color: blue;
+#header{
 }
 
 
