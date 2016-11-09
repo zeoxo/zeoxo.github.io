@@ -4,17 +4,13 @@ body{
 }
 
 #container{
-    background-color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 2%
 }
-#top{
-}
 
-#header{
-  background-color: #ff9900;
+#top{
   color: white;
 }
 
@@ -23,15 +19,19 @@ body{
   color: blue;
 }
 
-.badge{
-  width: 50%;
-  height: auto;
-}
 
 @media all and (max-width: 600px){
   .screenshot{
     width: 90%;
     height: auto;
     padding-top: 40px;
+  }
+}
+
+@media all and (min-width: 601px){
+  .screenshot{
+    width: 20%;
+    height: auto;
+    float: center;
   }
 }
