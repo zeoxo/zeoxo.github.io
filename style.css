@@ -19,10 +19,7 @@ a{
   color: white;
 }
 
-#header{
-  font-size: 300%;
-  font-weight: bold;
-}
+
 
 #footer{
   color: white;
@@ -30,6 +27,11 @@ a{
 
 
 @media all and (max-width: 600px){
+  #header{
+    font-size: 110%;
+    font-weight: bold;
+  }
+
   .screenshot{
     width: 90%;
     height: auto;
@@ -38,6 +40,11 @@ a{
 }
 
 @media all and (min-width: 601px){
+  #header{
+    font-size: 300%;
+    font-weight: bold;
+  }
+
   .screenshot{
     width: 20%;
     height: auto;
