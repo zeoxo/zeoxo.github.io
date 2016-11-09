@@ -32,6 +32,9 @@ a{
     font-weight: bold;
   }
 
+  #author{
+    font-size: 70%;
+  }
   .screenshot{
     width: 90%;
     height: auto;
@@ -44,7 +47,9 @@ a{
     font-size: 300%;
     font-weight: bold;
   }
-
+  #author{
+    font-size: 50%;
+  }
   .screenshot{
     width: 20%;
     height: auto;
