@@ -22,6 +22,14 @@ a{
   line-height: 0px;
   margin-bottom: 0px;
 }
+#main hr{
+  border: 1px solid black;
+  width: 300px;
+  padding: 0px;
+  -webkit-animation:titleLine 5s;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 
 #links{
   display:inline;
@@ -36,19 +44,27 @@ a{
   width: 4%;
 }
 
-#main hr{
-  border: 1px solid black;
-  width: 300px;
-  padding: 0px;
-  -webkit-animation:titleLine 5s;
+#links a{
+  color:black;
+  display:inline;
+  text-align: center;
+  font-size: 18px;
+  line-height: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  -webkit-animation:linkAnimation 4s;
 }
+
+#links a:hover{
+    color:#ff1a75;
+}
+
 
 #zeoxo {
   color:#ff1a75;
   margin-bottom: 0px;
   padding-bottom: 10px;
   top:50%;
-  font-weight: bold;
   -webkit-animation:colorchange 5s;
 }
 
@@ -76,4 +92,9 @@ a{
   50% {width: 300px;}
   50% {width: 300px;}
   100% {width: 300px; border: 1px solid black;}
+}
+
+@-webkit-keyframes linkAnimation{
+  0%{color: black;}
+  100% {color: black;}
 }
