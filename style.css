@@ -48,11 +48,6 @@ a{
   margin-bottom: 0px;
   padding-bottom: 10px;
   top:50%;
-}
-
-
-#zeoxo {
-  color:#ff1a75;
   font-weight: bold;
   -webkit-animation:colorchange 5s;
 }
