@@ -52,7 +52,6 @@ a{
   line-height: 0px;
   margin-top: 0px;
   padding-top: 0px;
-  -webkit-animation:linkAnimation 4s;
 }
 
 #links a:hover{
@@ -70,6 +69,11 @@ a{
 
 #zeoxo:hover{
   color: black;
+}
+
+footer h1{
+  text-align: center;
+  bottom: 0;
 }
 
 
@@ -92,9 +96,4 @@ a{
   50% {width: 300px;}
   50% {width: 300px;}
   100% {width: 300px; border: 1px solid black;}
-}
-
-@-webkit-keyframes linkAnimation{
-  0%{color: black;}
-  100% {color: black;}
 }
