@@ -1,9 +1,8 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: white;
+  background-color: #181425;
   color:black;
-  -webkit-animation:backcolorchange 5s;
 }
 
 a{
@@ -12,18 +11,23 @@ a{
   color: white;
 }
 
-
-
 #main{
   text-align: center;
   font-size: 600%;
-  padding-top: 250px;
-  color:#;
   line-height: 0px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
+
+#main center img{
+  margin-bottom: 0px;
+  padding-bottom: 45px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+
 #main hr{
-  border: 1px solid black;
+  border: 1px solid white;
   width: 300px;
   padding: 0px;
   -webkit-animation:titleLine 5s;
@@ -40,29 +44,27 @@ a{
   margin-bottom: 1px;
 }
 
-#links img{
-  width: 4%;
-}
-
 #links a{
-  color:black;
+  color:white;
   display:inline;
   text-align: center;
   font-size: 18px;
   line-height: 0px;
   margin-top: 0px;
   padding-top: 0px;
+  -webkit-animation: Linkcolorchange 5s;
 }
 
 #links a:hover{
-    color:#ff1a75;
+    color:#ff0044;
 }
 
 
 #zeoxo {
-  color:#ff1a75;
+  color:#ff0044;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  font-size : 75px;
   top:50%;
   -webkit-animation:colorchange 5s;
 }
@@ -79,21 +81,18 @@ footer h1{
 
 /*Animations*/
 @-webkit-keyframes colorchange {
-  0% { color: white;}
-  100% { color: #ff1a75;}
-
+  0% { color: #181425;}
+  100% { color: #ff0044;}
 }
 
-@-webkit-keyframes backcolorchange {
-  0% { background: black;}
-  50% { background: black;}
-  75% { background: black;}
-  100% {background: white;}
+@-webkit-keyframes Linkcolorchange {
+  0% { color: #181425;}
+  100% { color: white;}
 }
 
 @-webkit-keyframes titleLine {
-  0% {width: 0px; border: 1px solid white;}
+  0% {width: 0px; border: 1px solid #white;}
   50% {width: 300px;}
   50% {width: 300px;}
-  100% {width: 300px; border: 1px solid black;}
+  100% {width: 300px; border: 1px solid white;}
 }
