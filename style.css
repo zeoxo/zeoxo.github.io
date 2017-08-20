@@ -10,7 +10,6 @@ a{
   display: inline;
   color: white;
 }
-
 #main{
   text-align: center;
   font-size: 600%;
@@ -34,7 +33,6 @@ a{
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
 #links{
   display:inline;
   line-height: 0px;
@@ -52,7 +50,7 @@ a{
   line-height: 0px;
   margin-top: 0px;
   padding-top: 0px;
-  -webkit-animation: Linkcolorchange 5s;
+  -webkit-animation: Linkcolorchange 1s;
 }
 
 #links a:hover{
@@ -85,6 +83,11 @@ footer h1{
   100% { color: #ff0044;}
 }
 
+@-webkit-keyframes opacityChange {
+  0% { opacity: 0}
+  100% { opacity: 1}
+}
+
 @-webkit-keyframes Linkcolorchange {
   0% { color: #181425;}
   100% { color: white;}
@@ -92,7 +95,6 @@ footer h1{
 
 @-webkit-keyframes titleLine {
   0% {width: 0px; border: 1px solid #white;}
-  50% {width: 300px;}
   50% {width: 300px;}
   100% {width: 300px; border: 1px solid white;}
 }
