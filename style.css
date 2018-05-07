@@ -1,7 +1,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #181425;
+  background-color: #080108;
   color:black;
 }
 
@@ -54,12 +54,12 @@ a{
 }
 
 #links a:hover{
-    color:#ff0044;
+    color:#804444;
 }
 
 
 #zeoxo {
-  color:#ff0044;
+  color:#804444;
   margin-bottom: 0px;
   padding-bottom: 10px;
   font-size : 75px;
@@ -79,8 +79,8 @@ footer h1{
 
 /*Animations*/
 @-webkit-keyframes colorchange {
-  0% { color: #181425;}
-  100% { color: #ff0044;}
+  0% { color: #080108;}
+  100% { color: #804444;}
 }
 
 @-webkit-keyframes opacityChange {
@@ -89,7 +89,7 @@ footer h1{
 }
 
 @-webkit-keyframes Linkcolorchange {
-  0% { color: #181425;}
+  0% { color: #080108;}
   100% { color: white;}
 }
 
