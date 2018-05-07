@@ -54,12 +54,12 @@ a{
 }
 
 #links a:hover{
-    color:#804444;
+    color:#592436;
 }
 
 
 #zeoxo {
-  color:#804444;
+  color:#592436;
   margin-bottom: 0px;
   padding-bottom: 10px;
   font-size : 75px;
@@ -80,7 +80,7 @@ footer h1{
 /*Animations*/
 @-webkit-keyframes colorchange {
   0% { color: #080108;}
-  100% { color: #804444;}
+  100% { color: #592436;}
 }
 
 @-webkit-keyframes opacityChange {
